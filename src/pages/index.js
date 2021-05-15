@@ -11,11 +11,9 @@ export default function Home({ data }) {
         <div>
           <h2>Discover</h2>
           <h3>Unique Coffee</h3>
-          <strong>More than 6000 premium coffees.</strong><br/><br/> <p>Try our AI coffee connoisseur, discover
-           the great variaty of coffeebeans, and buy coffee that tastes great every time.
-           At BeanBusters we want to enable every coffee enthusiast to discover great coffee, 
-           and stop you from ever buying a bad bag of coffee again.<br/><br/>
-           Create your free account today to get your unique taste profile and become your own coffee connoisseur.</p>
+          <strong>Shop more than 6000 premium coffees.</strong><br/><br/> <p>Try our AI coffee connoisseur, discover
+           the great variaty of coffeebeans, and buy personalised coffee that tastes great every time.<br/><br/>
+           Create your free account today, get your unique taste profile and become your own coffee connoisseur.</p>
           <div>
             <Link className={styles.btn} to="/discovercoffee">Discover coffee</Link>
             <Link className={styles.btn} to="/account">Create free account</Link>
