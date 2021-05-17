@@ -5,15 +5,21 @@ export default function About() {
     return (
         <Layout>
             <div>
-                <h1>About the creators</h1><br></br>
+                <h1>The creators</h1><br></br>
                 <h3>Pamela Javier Berge</h3>
-                <p>Dolor reprehenderit fugiat aliqua aliquip ullamco est commodo laborum ipsum. Sint aliqua aliqua Lorem non voluptate duis nisi ipsum ullamco labore sunt qui mollit. Est ullamco reprehenderit aliquip ad mollit sint laboris in nisi. Magna eiusmod commodo ea irure. Velit ad magna laboris magna laborum do.</p>
+                <p>Pamela has a strong passion for IT and data solutions. She loves talking about data ethics and best practices,
+                 and she loves creating back-end solutions for interesting and fun applications.</p>
                 <h3>Mark Elimann</h3>
-                <p>Dolor reprehenderit fugiat aliqua aliquip ullamco est commodo laborum ipsum. Sint aliqua aliqua Lorem non voluptate duis nisi ipsum ullamco labore sunt qui mollit. Est ullamco reprehenderit aliquip ad mollit sint laboris in nisi. Magna eiusmod commodo ea irure. Velit ad magna laboris magna laborum do.</p>
+                <p>Mark thrives in the intersection between technology and business — data and people. The more technical aspect 
+                is one of his key focus areas right now, as he has the ambition to advance in this space. Mark is responsible for 
+                the data science aspect of BeanBusters.</p>
                 <h3>Jesper Jensen</h3>
-                <p>Dolor reprehenderit fugiat aliqua aliquip ullamco est commodo laborum ipsum. Sint aliqua aliqua Lorem non voluptate duis nisi ipsum ullamco labore sunt qui mollit. Est ullamco reprehenderit aliquip ad mollit sint laboris in nisi. Magna eiusmod commodo ea irure. Velit ad magna laboris magna laborum do.</p>
+                <p>Jesper has an interest in working with technical corporate strategy and innovation of a company.
+                Jesper is responsible for the data science aspect of BeanBusters.</p>
                 <h3>Søren Kristian Simonsen</h3>
-                <p>Dolor reprehenderit fugiat aliqua aliquip ullamco est commodo laborum ipsum. Sint aliqua aliqua Lorem non voluptate duis nisi ipsum ullamco labore sunt qui mollit. Est ullamco reprehenderit aliquip ad mollit sint laboris in nisi. Magna eiusmod commodo ea irure. Velit ad magna laboris magna laborum do.</p>
+                <p>Søren aspires to be in a creative environment of both business and technology professionals and want to create digital 
+                services people truly enjoy using. Søren is constantly challenging himself to develop his competencies within computational 
+                thinking and has developed the frontend of BeanBusters.</p>
             </div>
         </Layout>
     )
