@@ -19,7 +19,7 @@ const { title } = data.site.siteMetadata
             <h1>{ title }</h1>
             <div className="links">
                 <Link to="/">Home</Link>
-                <Link to="/discovercoffee">Discover</Link>
+                <Link to="/discovercoffee">Coffee</Link>
                 <Link to="/blog">Blog</Link>
                 <Link to="/localCafe">Local cafe</Link>
                 <Link to="/about">About</Link>
