@@ -33,6 +33,11 @@ nav .links {
   display: inline-block;
   text-align: right;
 }
+
+nav .headerLink {
+  margin-left: -20px;
+}
+
 nav a {
   display: inline-block;
   margin-left: 20px;

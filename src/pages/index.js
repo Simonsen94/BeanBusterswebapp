@@ -13,7 +13,7 @@ export default function Home({ data }) {
           <h3>Unique Coffee</h3>
           <strong>Shop more than 6000 premium coffees.</strong><br/><br/> <p>Try our AI coffee connoisseur, discover
            the great variaty of coffeebeans, and buy personalised coffee that tastes great every time.<br/><br/>
-           Create your free account today, get your unique taste profile and become your own coffee connoisseur.</p>
+           Create your free account today.</p>
           <div>
             <Link className={styles.btn} to="/discovercoffee">Discover coffee</Link>
             <Link className={styles.btn} to="/account">Create free account</Link>
