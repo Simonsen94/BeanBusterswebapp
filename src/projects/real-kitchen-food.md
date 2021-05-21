@@ -1,7 +1,7 @@
 ---
-title: Real Kitchen Food
-stack: Gatsby & Shopify
-slug: real-kitchen-food
+title: The AI behind BeanBusters
+stack: 8 min read
+slug: the-ai-behind-beanbusters
 date: 2021-02-01T00:00:00+00:00
 thumb: ../images/thumbs/coffee.png
 featuredImg: ../images/featured/coffee-banner.png
