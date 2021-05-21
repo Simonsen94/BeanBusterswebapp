@@ -3,6 +3,8 @@ title: The Dojo Coffee House
 stack: HTML & CSS
 slug: the-dojo-coffee-house
 date: 2021-01-01T00:00:00+00:00
+thumb: ../images/thumbs/coffee.png
+featuredImg: ../images/featured/coffee-banner.png
 ---
 
 **Amet sint sint eu dolore commodo amet Lorem proident.** Ea exercitation laborum reprehenderit mollit amet commodo. Labore dolor ipsum nisi mollit. Eu quis velit ullamco sit enim. Mollit aute ipsum elit consectetur sit fugiat labore sunt. Nisi qui magna enim ex ullamco voluptate ea nulla sunt.
