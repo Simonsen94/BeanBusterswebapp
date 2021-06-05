@@ -17,7 +17,7 @@ const { title } = data.site.siteMetadata
     return (
         <nav>
             <div className="headerLink">
-            <Link to="/"><h1>BeanBusters</h1></Link>
+            <Link to="/"><h1>{ title }</h1></Link>
             </div>
             <div className="links">
                 <Link to="/discovercoffee">Coffee</Link>

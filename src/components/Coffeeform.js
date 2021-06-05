@@ -31,6 +31,10 @@ export default function CoffeeForm() {
                     <option value="2">I like the notes to have hints of something different.</option>
                     <option value="3">I like to have a taste explosion of different notes.</option>
                 </select>
+                <p>Select your top 3 notes</p>
+                <input 
+                    type='text'
+                />
                 <p>Select price range</p>
                 <select>
                     <option value="1">10-20$</option>

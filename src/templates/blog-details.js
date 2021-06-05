@@ -1,14 +1,45 @@
+import { graphql } from 'gatsby'
 import React from 'react'
 import Layout from '../components/Layout'
 import * as styles from '../styles/blog-details.module.css'
+import Img from 'gatsby-image'
 
-export default function BlogDetails() {
+const BlogDetails = ( {data} ) => {
+    console.log(data)
+    const { html } = data.markdownRemark
+    const { title, /*stack,*/ featuredImg } = data.markdownRemark.frontmatter
+
     return (
         <Layout>
             <div className={ styles.details }>
-                <h2>title</h2>
-                <h3>stack</h3>
+                <h2>{ title }</h2>
+                {/*<h3>{ stack }</h3>*/}
+                <div className={styles.featured}>
+                    <Img fluid={featuredImg.childImageSharp.fluid} />
+                </div>
+                <div className={styles.html} dangerouslySetInnerHTML={{ __html: html }} />
             </div>
         </Layout>
     )
 }
+
+export default BlogDetails
+
+export const query = graphql`
+    query BlogDetailsPage($slug: String) {
+        markdownRemark(frontmatter: {slug: {eq: $slug}}) {
+            html
+            frontmatter {
+                stack
+                title
+                featuredImg {
+                    childImageSharp {
+                        fluid {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
+    }
+`

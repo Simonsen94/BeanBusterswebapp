@@ -30,5 +30,5 @@ module.exports = {
     description: 'Discover unique coffee',
     copyright: 'This website is copyright 2021 BeanBusters',
     contact: 'sks@beanbusters.com'
-  }
+  },
 }
