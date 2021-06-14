@@ -5,7 +5,7 @@
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat";
-  color: white/* rgb(255, 226, 185);*/
+  color: white /*rgb(255, 226, 185);*/
 }
 html, body {
   min-height: 100%;
@@ -17,6 +17,9 @@ body {
 p {
   margin: 16px auto;
   line-height: 1.5em;
+}
+div {
+  padding: 0%;
 }
 
 /* layout & nav */
@@ -42,7 +45,7 @@ nav a {
   display: inline-block;
   margin-left: 20px;
   font-weight: 400;
-  padding-bottom: 8px;
+  padding-bottom: 0px;
   border-bottom: 3px solid transparent;
 }
 nav a:hover {
